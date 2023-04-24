@@ -1,0 +1,50 @@
+body{
+	background-color: #5A5A5A; 
+	color:  #FEFEFA;
+}
+
+h2, h3, h4, h5 {
+	color: palegreen;
+	font-family: monospace;
+}
+
+table, td{
+	border : solid palegreen;
+	text-align: center;
+}
+thead, tfoot{
+	color : powderblue;
+}
+ul{
+	list-style: square;
+}
+.hyperLink:hover {
+	background-color: palegreen;
+}
+.hyperLink {
+	text-decoration: none;
+}
+blockquote {
+	background-color: powderblue;
+	color : #5a5a8d;
+}
+#teamRoster{
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+	background-repeat: no-repeat;
+	background-size: 20%;
+	list-style: none;
+} 
+
+#teamRoster li:nth-child(2) ul {
+ 	background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg);	
+ 	background-repeat: no-repeat;
+ 	background-size: 20%;
+
+}
+#checkbox-grid {
+	list-style: none;
+}
+
+#teamRoster > li:first-child img, #teamRoster> li:nth-child(2) img{
+	display:none;
+}
